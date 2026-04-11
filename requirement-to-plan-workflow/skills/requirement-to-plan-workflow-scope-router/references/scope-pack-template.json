@@ -1,0 +1,107 @@
+{
+  "runId": "<run-id>",
+  "requirementTitle": "<requirement title>",
+  "requirementSource": "<local path | remote url | inline>",
+  "requirementSummary": "<brief requirement summary>",
+  "businessDomain": {
+    "primary": "<primary business domain>",
+    "secondary": [
+      "<secondary business domain>"
+    ]
+  },
+  "businessChains": {
+    "primary": [
+      "<primary business chain>"
+    ],
+    "secondary": [
+      "<secondary business chain>"
+    ]
+  },
+  "requirementTypes": [
+    "<requirement type>"
+  ],
+  "functionalPoints": [
+    {
+      "id": "FP-01",
+      "name": "<functional point name>",
+      "description": "<functional point description>"
+    }
+  ],
+  "supportTags": [
+    "<support tag>"
+  ],
+  "candidateServices": [
+    {
+      "service": "<service name>",
+      "role": "<role>",
+      "isPrimary": true,
+      "reason": "<why this service is in scope>"
+    }
+  ],
+  "candidateModules": [
+    {
+      "service": "<service name>",
+      "module": "<module or component name>",
+      "role": "<role>",
+      "reason": "<why this module is in scope>"
+    }
+  ],
+  "docsToRead": {
+    "globalDocs": [
+      "docs/document-network.md"
+    ],
+    "serviceDocs": [
+      "projects/<service>/AI-GUIDE.md"
+    ],
+    "specialDocs": [
+      "<special document path>"
+    ]
+  },
+  "assetsToInspect": {
+    "interfaces": [
+      "<interface or request name>"
+    ],
+    "dataModels": [
+      "<data model>"
+    ],
+    "configs": [
+      "<config item>"
+    ],
+    "constants": [
+      "<constant>"
+    ],
+    "validators": [
+      "<validator>"
+    ],
+    "domainServices": [
+      "<domain service>"
+    ],
+    "repositories": [
+      "<repository>"
+    ],
+    "externalDependencies": [
+      "<dependency>"
+    ]
+  },
+  "riskSignals": [
+    {
+      "risk": "<risk description>",
+      "level": "低",
+      "reason": "<why this risk matters>"
+    }
+  ],
+  "openQuestions": [
+    "<question>"
+  ],
+  "confirmedFacts": [
+    "<confirmed fact>"
+  ],
+  "analysisConstraints": [
+    "<constraint or redline>"
+  ],
+  "stopAndConfirm": {
+    "required": false,
+    "reason": "<why stop-and-confirm is or is not needed>"
+  },
+  "scopeConclusion": "<whether the workflow can continue to requirement-analysis>"
+}

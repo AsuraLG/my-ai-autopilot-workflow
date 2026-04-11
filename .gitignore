@@ -1,0 +1,6 @@
+.omx/
+.codex/
+projects/
+docs/.obsidian/
+
+.DS_Store
