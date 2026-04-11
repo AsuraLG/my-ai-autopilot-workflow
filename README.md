@@ -8,7 +8,7 @@
 
 用于需求分析、技术方案设计与质量门禁。
 
-详细说明和使用方式见 [requirement-to-plan-workflow/README.md](blob/main/requirement-to-plan-workflow/README.md)。
+详细说明和使用方式见 [requirement-to-plan-workflow/README.md](requirement-to-plan-workflow/README.md)。
 
 ## 使用说明
 
