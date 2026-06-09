@@ -1,0 +1,142 @@
+{
+  "runId": "<run-id>",
+  "workflow": "requirement-to-plan-workflow",
+  "version": "2.0",
+  "status": "running",
+  "currentStage": "r2p-scope-router",
+  "resumable": true,
+  "createdAt": "<YYYY-MM-DD HH:mm:ss +0800>",
+  "updatedAt": "<YYYY-MM-DD HH:mm:ss +0800>",
+  "completedAt": null,
+  "config": {
+    "knowledgeBasePath": "<用户确认的知识库目录>",
+    "codeReposPath": "<用户确认的代码仓库目录>",
+    "requirementSource": "<需求来源描述>",
+    "requirementMaterializedPath": "input/requirement.md",
+    "kbNavigationInfo": "<从知识库 README 获取的导航摘要>"
+  },
+  "stages": [
+    {
+      "name": "r2p-scope-router",
+      "status": "pending",
+      "attempt": 0,
+      "lastUpdatedAt": null,
+      "outputs": ["intermediate/scope-pack.json"],
+      "userReview": {
+        "reviewed": false,
+        "approved": false,
+        "feedback": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "name": "r2p-requirement-analysis",
+      "status": "pending",
+      "attempt": 0,
+      "lastUpdatedAt": null,
+      "outputs": [
+        "outputs/requirement-analysis.md",
+        "intermediate/review-basis/requirement-analysis-review-basis.md"
+      ],
+      "userReview": {
+        "reviewed": false,
+        "approved": false,
+        "feedback": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "name": "r2p-solution-outline",
+      "status": "pending",
+      "attempt": 0,
+      "lastUpdatedAt": null,
+      "outputs": [
+        "outputs/solution-outline.md",
+        "intermediate/review-basis/solution-outline-review-basis.md"
+      ],
+      "userReview": {
+        "reviewed": false,
+        "approved": false,
+        "feedback": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "name": "r2p-solution-detail",
+      "status": "pending",
+      "attempt": 0,
+      "lastUpdatedAt": null,
+      "outputs": [
+        "outputs/solution-detail.md",
+        "intermediate/review-basis/solution-detail-review-basis.md"
+      ],
+      "userReview": {
+        "reviewed": false,
+        "approved": false,
+        "feedback": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "name": "r2p-quality-gate",
+      "status": "pending",
+      "attempt": 0,
+      "lastUpdatedAt": null,
+      "outputs": ["outputs/quality-gate-report.md"],
+      "userReview": {
+        "reviewed": false,
+        "approved": false,
+        "feedback": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "name": "r2p-task-breakdown",
+      "status": "pending",
+      "attempt": 0,
+      "lastUpdatedAt": null,
+      "outputs": [
+        "outputs/task-breakdown.json",
+        "outputs/task-breakdown.md",
+        "intermediate/review-basis/task-breakdown-review-basis.md"
+      ],
+      "userReview": {
+        "reviewed": false,
+        "approved": false,
+        "feedback": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "name": "r2p-task-gate",
+      "status": "pending",
+      "attempt": 0,
+      "lastUpdatedAt": null,
+      "outputs": ["outputs/task-gate-report.md"],
+      "userReview": {
+        "reviewed": false,
+        "approved": false,
+        "feedback": null,
+        "reviewedAt": null
+      }
+    }
+  ],
+  "qualityGate": {
+    "currentRound": 0,
+    "maxRounds": 3,
+    "lastConclusion": null,
+    "restartFromStage": null,
+    "latestReworkGuide": null
+  },
+  "taskGate": {
+    "currentRound": 0,
+    "maxRounds": 3,
+    "lastConclusion": null
+  },
+  "pauseContext": {
+    "reason": null,
+    "stageToResume": null,
+    "userFeedback": null,
+    "pausedAt": null
+  }
+}
