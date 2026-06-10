@@ -2,6 +2,7 @@
 name: r2p-task-gate
 description: 检查任务拆解与详细方案的一致性，由 subagent 执行
 argument-hint: "<需求文档路径或需求描述>"
+model: sonnet
 ---
 
 # r2p-task-gate

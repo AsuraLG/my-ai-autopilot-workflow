@@ -2,6 +2,7 @@
 name: r2p-quality-gate
 description: 对三份正式产物及审查依据执行质量门禁检查，由 subagent 执行
 argument-hint: "<需求文档路径或需求描述>"
+model: sonnet
 ---
 
 # r2p-quality-gate

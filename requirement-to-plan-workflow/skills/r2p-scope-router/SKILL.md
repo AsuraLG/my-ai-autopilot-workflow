@@ -2,6 +2,7 @@
 name: r2p-scope-router
 description: 需求分诊子阶段；产出结构化 scope-pack.json，由 subagent 执行
 argument-hint: "<需求文档路径或需求描述>"
+model: sonnet
 ---
 
 # r2p-scope-router
